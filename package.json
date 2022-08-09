@@ -8,8 +8,8 @@
     "rollup": "node rollup.mjs"
   },
   "dependencies": {
-    "@linaria/react": "^4.1.2",
-    "@linaria/rollup": "^4.1.2"
+    "@linaria/react": "4.1.2",
+    "@linaria/rollup": "4.1.2"
   },
   "engines": {
     "node": "^18"
