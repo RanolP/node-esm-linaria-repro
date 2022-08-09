@@ -36,7 +36,7 @@ Node.js v18.7.0
 
 ### rollup
 
-In this project, the rollup configuration file uses ESM.
+In this project, the rollup configuration file uses ESM (like Vite).
 I want to use `@linaria/rollup` here.
 I just import default `linaria` function... and it is not a function.
 
