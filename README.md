@@ -38,7 +38,7 @@ Node.js v18.7.0
 
 In this project, the rollup configuration file uses ESM.
 I want to use `@linaria/rollup` here.
-I just import default `linaria` function... and it is not callable.
+I just import default `linaria` function... and it is not a function.
 
 ```sh
 sh-5.1$ npm run styled
