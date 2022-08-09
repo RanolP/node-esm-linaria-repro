@@ -4,4 +4,9 @@
 // It just refuses the import because it is considered a CommonJS module.
 import { styled } from '@linaria/react';
 
-console.log(styled);
+console.log(
+  /* @__PURE__ */ styled('h1')({
+    name: 'Title',
+    class: 't16oc0kt',
+  }),
+);
