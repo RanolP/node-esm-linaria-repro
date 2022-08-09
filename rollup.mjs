@@ -4,4 +4,4 @@
 // It could happen if we configure rollup in ESM context. (e.g. `vite.config.ts`)
 import rollup from '@linaria/rollup';
 
-console.log(rollup);
+console.log(rollup());

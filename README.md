@@ -9,10 +9,8 @@ Linaria 4.1.2 is incompatible with Node v18 ESM
 I want to SSR a component using `@linaria/styled`.
 And I want to write my Node server with ESM support.
 
-The result:
-
 ```sh
-ranolp@RanolP:~/node-esm-linaria-repro$ npm run styled
+sh-5.1$ npm run styled
 
 > styled
 > node styled.mjs
@@ -36,8 +34,6 @@ const { styled } = pkg;
 Node.js v18.7.0
 ```
 
-What?
-
 ### rollup
 
 In this project, the rollup configuration file uses ESM.
@@ -45,15 +41,25 @@ I want to use `@linaria/rollup` here.
 I just import default `linaria` function... and it is not callable.
 
 ```sh
-ranolp@RanolP:~/node-esm-linaria-repro$ npm run styled
+sh-5.1$ npm run styled
 
 > styled
 > node rollup.mjs
 
-{ default: [Function: linaria] }
-```
+file:///home/ranolp/Projects/RanolP/sandbox/node-esm-linaria-repro/rollup.mjs:7
+console.log(rollup());
+            ^
 
-Why?
+TypeError: rollup is not a function
+    at file:///home/ranolp/Projects/RanolP/sandbox/node-esm-linaria-repro/rollup.mjs:7:13
+    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:541:24)
+    at async loadESM (node:internal/process/esm_loader:91:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
+
+Node.js v18.7.0
+```
 
 ## Conclusion
 
