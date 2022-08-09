@@ -1,0 +1,17 @@
+{
+  "name": "node-esm-linaria",
+  "private": true,
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "styled": "node styled.mjs",
+    "rollup": "node rollup.mjs"
+  },
+  "dependencies": {
+    "@linaria/react": "^4.1.2",
+    "@linaria/rollup": "^4.1.2"
+  },
+  "engines": {
+    "node": "^18"
+  }
+}
