@@ -1,6 +1,6 @@
 # node-esm-linaria-repro
 
-Linaria 4.1.2 is incompatible with Node v18 ESM
+Linaria 4.1.2 is incompatible with Node ESM
 
 ## Stories
 
