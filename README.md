@@ -46,12 +46,12 @@ sh-5.1$ npm run styled
 > styled
 > node rollup.mjs
 
-file:///home/ranolp/Projects/RanolP/sandbox/node-esm-linaria-repro/rollup.mjs:7
+file:///home/node-esm-linaria-repro/rollup.mjs:7
 console.log(rollup());
             ^
 
 TypeError: rollup is not a function
-    at file:///home/ranolp/Projects/RanolP/sandbox/node-esm-linaria-repro/rollup.mjs:7:13
+    at file:///home/node-esm-linaria-repro/rollup.mjs:7:13
     at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
     at async Promise.all (index 0)
     at async ESMLoader.import (node:internal/modules/esm/loader:541:24)
