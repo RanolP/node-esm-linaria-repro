@@ -2,6 +2,8 @@
 
 Linaria 4.1.2 is incompatible with Node ESM
 
+**EDIT**: Linaria 4.2.0 has been released with the fixes included. Try upgrade if you've encountered same problem.
+
 ## Stories
 
 ### styled
