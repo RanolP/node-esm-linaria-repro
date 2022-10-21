@@ -6,6 +6,8 @@ Linaria 4.1.2 is incompatible with Node ESM
 
 **EDIT2**: Linaria 4.2.0 still relies on `@emotion/is-prop-valid`, which is not Node ESM compatible package. This is not likely to be fixed on Emotion side and therefore you should be careful about. You can easily make a [patch for those packages](https://github.com/RanolP/minecransladle/tree/795cbccb9375f3ac0e6325cc875a6b72d33e8e9d/.yarn/patches).
 
+**EDIT3**: Even in Linaria 4.2.1 (with emotion package upgraded), you should patch `@emotion/*`; See [here](https://github.com/RanolP/minecransladle/tree/29feeb8b92b39456d6171619aa87ff4ba73ad79a/.yarn/patches).
+
 ## Stories
 
 ### styled
